@@ -14,7 +14,7 @@ import json
 from typing import List, Dict
 from Bio import Entrez
 
-# Required by NCBI Entrez — this identifies you as the requesting user
+# Required by NCBI Entrez — identifies you as the requesting user
 Entrez.email = "jgspruance@gmail.com"  # type: ignore
 
 # Search parameters
@@ -24,7 +24,6 @@ SEARCH_TERM = (
     ' OR "ME/CFS"'
     ' OR "MECFS"'
 )
-
 MAX_RESULTS = 100
 
 
@@ -32,12 +31,9 @@ def fetch_pubmed() -> None:
     """
     Fetches ME/CFS papers from PubMed using Entrez API.
 
-    1. Searches PubMed for the specified SEARCH_TERM.
+    1. Searches PubMed for SEARCH_TERM.
     2. Retrieves up to MAX_RESULTS abstracts in XML format.
     3. Extracts metadata fields and writes to data/raw_papers.json.
-
-    Returns:
-        None
     """
     print("🔍 Fetching papers from PubMed...")
 
@@ -73,10 +69,21 @@ def fetch_pubmed() -> None:
             "fetched_at": datetime.utcnow().isoformat()
         })
 
-    # Step 4: Save results to local JSON
+    # Step 4: Wrap results with metadata header
+    data_out = {
+        "metadata": {
+            "search_term": SEARCH_TERM,
+            "fetched_at": datetime.utcnow().isoformat(),
+            "total_results": len(results),
+            "source": "PubMed (NCBI Entrez)"
+        },
+        "papers": results
+    }
+
+    # Step 5: Save to JSON
     output_path = "data/raw_papers.json"
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2)
+        json.dump(data_out, f, indent=2, ensure_ascii=False)
 
     print(f"✅ Saved {len(results)} papers to {output_path}")
 
