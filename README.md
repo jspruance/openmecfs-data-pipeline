@@ -64,7 +64,7 @@ The goal of Open ME/CFS is to **democratize biomedical research** — using open
 ## 👤 Author
 
 **Jonathan Spruance**  
-[GitHub](https://github.com/yourusername) · [Twitter](https://twitter.com/) · [openmecfs.org](https://openmecfs.org)
+[GitHub](https://github.com/jspruance) · [openmecfs.org](https://openmecfs.org)
 
 ---
 
