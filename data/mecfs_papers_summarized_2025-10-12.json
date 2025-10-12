@@ -8,12 +8,13 @@
       "Lkhagvasuren",
       "Yamada"
     ],
+    "year": 2025,
     "technical_summary": "Seatful isometric yoga has been shown to reduce fatigue and pain of patients with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and fibromyalgia (FM). A study was conducted on 48 adult patients without satisfactory improvement after 3 months of conventional therapy. The yoga group received 25-min sessions with a yoga instructor at hospital visits and daily in-home sessions. After the intervention, the PS score of the yoga group was significantly lower than that of the control group.",
     "patient_summary": "Recumbent isometric yoga has been shown to reduce the fatigue and pain of patients with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) Some patients who are for the most part bedridden have difficulty practicing it. Many patients with this disease also suffer from fibromyalgia (FM)",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127595",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -31,12 +32,13 @@
       "Baker",
       "Baker"
     ],
+    "year": 2025,
     "technical_summary": "This systematic review explores the relationship between digital biomarkers, measured using wearable devices, and fatigue in patients with chronic diseases. It synthesizes findings on the correlation between objective digital biomarker and self-reported fatigue. The results suggest that reduced physical activity, increased sedentary behavior and autonomic dysfunction are associated with fatigue levels across the conditions included in the review.",
     "patient_summary": "This systematic review explores the relationship between digital biomarkers, measured using wearable devices, and fatigue in patients with chronic diseases. The results suggest that reduced physical activity, increased sedentary behavior and autonomic dysfunction are associated with fatigue levels.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127655",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -65,12 +67,13 @@
       "Akoulitchev",
       "Pchejetski"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is a debilitating, multifactorial disorder. Chromosome conformations (CCs) are potent epigenetic regulators of gene expression and cross-tissue exosome signalling. EpiSwitch developed an algorithm-based CCs analysis. It has shown presence of disease-specific CCs in peripheral blood mononuclear cells of patients with ALS, rheumatoid arthritis, prostate and colorectal cancers, diffuse Large B-cell lymphoma and severe COVID-19.",
     "patient_summary": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is a debilitating, multifactorial disorder characterised by profound fatigue, post-exertional malaise, cognitive impairments, and autonomic dysfunction. Despite its significant impact on quality of life, ME/C FS lacks definitive diagnostic biomarkers, complicating diagnosis and management.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127666",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -86,12 +89,13 @@
       "Rafiee",
       "Lin"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a debilitating, long-term illness that significantly impairs physical functioning. The PROMIS PF-SF 12a for use in ME/Cfs research and clinical practice has good reliability and validity. It showed no substantial floor/ceiling effects, internal consistency reliability, known-groups validity and convergent validity.",
     "patient_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a debilitating, long-term illness. Despite its impact, the use of modern generic instruments to assess physical function in this population remains underexplored. This study aims to assess the psychometric properties of the Patient-Reported Outcome Measurement Information System.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127674",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -118,12 +122,13 @@
       "Scheibenbogen",
       "Sotzny"
     ],
+    "year": 2025,
     "technical_summary": "Epstein-Barr virus (EBV) infection is a well-established trigger and risk factor for both myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and post-COVID syndrome (PCS). In previous studies, we identified elevated IgG responses to arginine-rich (poly-R) sequences within the EBV nuclear antigens EBNA4 and EBNA6. In this study, IgG reactivity to poly-R-containing EBV-derived peptides and homologous human peptides was assessed using a cytometric bead array (CBA) and a multiplex dot-blot assay. Serum samples were analyzed from 45 female PCS patients diagnosed according to WHO criteria, including 26 who also met the Canadian Consensus criteria for ME/C FS. Several autoantibodies targeting",
     "patient_summary": "Epstein-Barr virus (EBV) infection is a well-established trigger and risk factor for both myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and post-COVID syndrome (PCS) In previous studies, we identified elevated IgG responses to arginine-rich (poly-R) sequences within the EBV nuclear antigens EBNA4 and EBNA6. Building on these findings, this exploratory study examines IgG reactivity to poly-R-containing EBV-derived peptides and homologous human peptides in women with PCS",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127684",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -140,12 +145,13 @@
       "Lundin",
       "Fedorowski"
     ],
+    "year": 2025,
     "technical_summary": "There are over 200 million smartwatches with electrocardiogram (ECG) sensors sold worldwide. This study examines a 35-year-old male with long COVID, POTS, and chronic fatigue syndrome (CFS) who recorded 328 ECGs over using a Samsung smartwatch.",
     "patient_summary": "Long COVID and cardiovascular autonomic dysfunction, including postural orthostatic tachycardia syndrome (POTS), present significant healthcare challenges. With over 200 million electrocardiogram (ECG)-enabled smartwatches sold worldwide, these devices offer a promising solution for at-home diagnostics and disease tracking.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127693",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -162,12 +168,13 @@
       "Tittlemier",
       "Sanchez-Ramirez"
     ],
+    "year": 2025,
     "technical_summary": "Post-COVID-19 syndrome (PCS) often resembles myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) symptoms. 18 adults with PCS participated in the study, averaging 4,067 steps per day (95%CI 3,638-4,497) over 117 days of valid data. People with ME-CFS reported more severe PCS symptoms and had lower functional capacity.",
     "patient_summary": "Post-COVID-19 syndrome (PCS) often resembles myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) We aimed to investigate the longitudinal associations between PCS symptoms and physical activity (same and following day) Eighteen individuals with PCS participated in the study, averaging 4,067 steps per day.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127701",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -183,12 +190,13 @@
       "Xiong",
       "Ke"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a debilitating illness marked by persistent fatigue. Growing evidence implicates immunosenescence-the age-related decline in immune function-in the onset and persistence of fatigue. It provides a unifying framework linking immune, metabolic, and neuroendocrine dysfunction.",
     "patient_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a debilitating illness marked by persistent fatigue. Growing evidence implicates immunosenescence-the age-related decline in immune function-in the onset and persistence of fatigue.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127714",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -204,12 +212,13 @@
       "Golomb",
       "Castro-Marrero"
     ],
+    "year": 2025,
     "technical_summary": "Gulf War Illness (GWI), fibromyalgia (FM), myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and long COVID are low-energy associated disorders with overlapping common symptoms underlying pathology. Evidence for mitochondrial dysfunction, oxidative stress, inflammation, immune dysregulation, neuroendocrine dysfunction, disrupted brain-gut-microbiome axis, apoptosis/ferroptosis and telomere shortening are common features in the pathogenesis of these disorders. Coenzyme Q10 (CoQ10) is an antioxidant, antiinflammatory, antiapoptotic and antiferroptotic agent. The reported benefits of supplementary CoQ10 administration in GWI, FM, ME/C FS and COVID have been reviewed.",
     "patient_summary": "Gulf War Illness (GWI), fibromyalgia (FM), myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and long COVID have distinct origins. Evidence for mitochondrial dysfunction, oxidative stress, inflammation, immune dysregulation, neuroendocrine dysfunction, disrupted brain-gut-microbiome axis, apoptosis/ferroptosis and telomere shortening have been identified. Given the role of coenzyme Q10 in promoting normal mitochondrial function, there is a rationale for supplementary CoQ10 in the management of these disorders.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127721",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -231,12 +240,13 @@
       "Abdelli",
       "Moreau"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic Encephalomyelitis (ME) is a multisystem disorder with poorly understood pathophysiological mechanisms. SMPDL3B, a membrane-bound protein expressed in renal podocytes, is essential for lipid raft integrity and glomerular barrier function in ME. In a study of 56 ME patients and 16 matched healthy controls, ME patients exhibited significantly lower urine-to-plasma ratios of SMPDl3B and reduced renal clearance, suggesting podocyte-related abnormalities. Female ME patients showed more pronounced SMPDB alterations and reduced clearance.",
     "patient_summary": "Myalgic Encephalomyelitis (ME) is a complex, multisystem disorder with poorly understood pathophysiological mechanisms. SMPDL3B, a membrane-associated protein expressed in renal podocytes, is essential for lipid raft integrity and glomerular barrier function. ME patients exhibited significantly lower urine-to-plasma ratios of soluble SMPDl3B and reduced renal clearance.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127729",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -253,12 +263,13 @@
       "Mastali",
       "Ramdass"
     ],
+    "year": 2025,
     "technical_summary": "Women with endometriosis have 2.79 times higher odds of developing ME/CFS compared to controls. The association is driven by shared mechanisms of immune dysregulation and chronic inflammation. Future research should prioritize standardized diagnostic criteria to elucidate the causal pathways of the two conditions.",
     "patient_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and endometriosis are debilitating conditions that share overlapping features of chronic inflammation and immune dysregulation. We conducted a systematic review and meta-analysis.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127736",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -280,12 +291,13 @@
       "Sokołowski",
       "Zalewski"
     ],
+    "year": 2025,
     "technical_summary": "The pathogenesis of Chronic Fatigue Syndrome (CFS) is unknown. This study aimed to assess the gut microbial composition in CFS patients versus in healthy controls (HCs). The composition of fecal bacteria was examined in 25 CFS and 16 HCs using Illumina sequencing of 16-S rRNA gene amplicons targeting the V3-V4 bacterial gene regions. 143 (46%) of the microbial genera were found only in the CFS.",
     "patient_summary": "The pathogenesis of Chronic Fatigue Syndrome (CFS) is yet unknown. This study aimed to assess the gut microbial composition in CFS patients versus in healthy controls (HCs) 143 (46%) of the microbial genera were found only in the CFS.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127744",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -327,12 +339,13 @@
       "Bouatia-Naji",
       "Norris"
     ],
+    "year": 2025,
     "technical_summary": "Hypermobile Ehlers-Danlos syndrome (hEDS) is the most common subtype of EDS. The molecular basis of hEDS has remained elusive. A genome-wide association study (GWAS) found common variants in a locus containing multiple candidates. LD-score regression found significant genetic correlations between HEDS and 19 comorbid conditions.",
     "patient_summary": " Hypermobile Ehlers-Danlos syndrome (hEDS) is the most common subtype of EDS. The molecular basis of hEDS has remained elusive. We conducted a genome-wide association study (GWAS) across three case controls studies.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127757",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -350,12 +363,13 @@
       "Niu",
       "Maes"
     ],
+    "year": 2025,
     "technical_summary": "Patients with transfusion-dependent thalassemia (TDT) are vulnerable to neurotoxicity due to frequent blood transfusions and the subsequent iron overload (IO) and inflammation. This vulnerability may contribute to the development of depression, anxiety, and chronic fatigue syndrome (CFS). Case-control study investigated central nervous system injury biomarkers in 126 children with TDT and 41 healthy children. They found significant correlations between the CDI score, NFL, GFAP, SCAS score and NFL, and FF score.",
     "patient_summary": "Patients with transfusion-dependent thalassemia (TDT) are vulnerable to neurotoxicity due to frequent blood transfusions. This vulnerability may contribute to the development of depression, anxiety, and chronic fatigue syndrome (CFS) Case-control study aims to investigate central nervous system injury biomarkers.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127768",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -372,12 +386,13 @@
       "Wieting",
       "Blome"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a serious chronic and complex multi-system disease. In the USA, its prevalence is estimated at 0.42% among adults, with women affected three times as often as men. It imposes a substantial health, social and economic burden of disease.",
     "patient_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a serious chronic and complex multi-system disease characterised by symptoms such as post-exertional malaise, fatigue, cognitive impairment and pain. In the USA, its prevalence is estimated at 0.42% among adults.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127776",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -395,12 +410,13 @@
       "Lu",
       "Cheema"
     ],
+    "year": 2025,
     "technical_summary": "Advanced glycation end products (AGEs) are reactive compounds formed through non-enzymatic glycation. AGEs can accumulate within cells and impair cellular function. They activate intracellular signaling pathways that promote the generation of reactive oxygen species (ROS), mitochondrial dysfunction and inflammation. Sustained AGE-RAGE signaling drives chronic inflammation contributing to the development of various ailments, including neurodegenerative diseases.",
     "patient_summary": "Advanced glycation end products (AGEs) are reactive compounds formed through non-enzymatic glycation. AGEs can accumulate within cells and impair cellular function. Sustained AGE-RAGE signaling drives chronic inflammation contributing to the development of various ailments, including neurodegenerative diseases.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127782",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -417,12 +433,13 @@
       "McCabe",
       "Ainsworth"
     ],
+    "year": 2025,
     "technical_summary": "Heart rate variability (HRV) has been documented as a validated tool to assess autonomic function in clinical practice. Fatigue has been associated with poorer quality of life and increased morbidity in multiple clinical fields. The most implemented fatigue measure was the Multidimension Fatigue Inventory Scale used in four studies and HRV was monitored by electrocardiogram in nine studies.",
     "patient_summary": "Heart rate variability (HRV) has been documented as a validated tool to assess autonomic function in clinical practice. The aim of this systematic review was to understand the relationship between fatigue and HRV in different medical populations. Patients with Chronic Fatigue Syndrome were the most investigated population.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127789",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -435,12 +452,13 @@
     "authors": [
       "Xiong"
     ],
+    "year": 2025,
     "technical_summary": "Chronic diseases like ME/CFS and long COVID exhibit high heterogeneity with multifactorial etiology and progression, complicating diagnosis and treatment. We developed BioMapAI, an explainable Deep Learning framework using the richest longitudinal multi-omics dataset for ME/ CFS to date. It identified both disease- and symptom-specific biomarkers and reconstructed symptoms.",
     "patient_summary": "BioMapAI is an explainable Deep Learning framework using the richest longitudinal multi-omics dataset for ME/CFS to date. This dataset includes gut metagenomics, plasma metabolome, immune profiling, blood labs, and clinical symptoms.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127795",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -457,12 +475,13 @@
       "Azola",
       "Rowe"
     ],
+    "year": 2025,
     "technical_summary": "Thoracic outlet syndrome (TOS) is characterized by compression of nerves or blood vessels. Common symptoms include arm fatigue and heaviness, paresthesias, and neck and upper back pain. A 19-year-old female patient with ME/CFS and the hypermobile Ehlers-Danlos syndrome (hEDS) developed progressive symptoms of numbness and tingling in the upper limbs. She underwent a rib resection with neurolysis and scalenectomy surgery on her left side. Three months later, she underwent the same procedure on her right side. She experienced an expected complete resolution of upper limb numbness, and a marked improvement in cognitive fogginess and lightheadedness.",
     "patient_summary": "Thoracic outlet syndrome (TOS) is characterized by compression of nerves or blood vessels. Common symptoms include arm fatigue and heaviness, paresthesias, and neck and upper back pain. Some ME/CFS patients report symptoms suggestive of TOS.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127806",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -477,12 +496,13 @@
       "Yamamoto",
       "Graca"
     ],
+    "year": 2025,
     "technical_summary": "Fatigue is the most common symptom of Long COVID (LC), defined by persistent or newly emerging symptoms that develop at least three months after an initial SARS-CoV-2 infection. Me/CFS is a potential comorbidity of LC. Only a minority of LC-yes cases (18.8%) satisfied criteria for the ME/C FS.",
     "patient_summary": "Fatigue is the most common symptom of Long COVID (LC), defined by persistent or newly emerging symptoms that develop at least three months after SARS-CoV-2 infection. This study investigates the prevalence of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) as a potential comorbidity of LC.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127812",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -517,12 +537,13 @@
       "Cohen Tervaert",
       "Osman"
     ],
+    "year": 2025,
     "technical_summary": "Severe fatigue in systemic sclerosis (SSc) patients with early disease is associated with increased disability, inflammation and fibrosis. SSc patients with severe fatigue had significantly increased disability and reduced lung function capacity. Galectin-9 levels correlated with reduced pulmonary function, and increased disease damage accrual.",
     "patient_summary": "Severe fatigue in SSc patients is associated with increased disability, reduced pulmonary function and increased vascular remodeling. We propose that ME/CFS-like symptoms in patients with SSc may be indicative of sub-clinical inflammation and fibrosis.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127822",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -547,12 +568,13 @@
       "Voors",
       "Tromp"
     ],
+    "year": 2025,
     "technical_summary": "Comorbidities are associated with an increased risk of incident heart failure (HF) in 6839 participants from the prospective observational Prevention of Renal and Vascular End-stage Disease (preventEND) cohort study. The participants' mean age at baseline was 53.8 years and 50% were women. They clustered in six distinct multimorbidity clusters, each impacting participants' HF risk differently.",
     "patient_summary": "Comorbidities are associated with an increased risk of incident heart failure (HF) However, data on the association between multimorbidity clusters and incident HF with preserved (HFpEF) and reduced ejection fraction (HFrEF) are lacking. We identified six multimorbridity clusters: young, elderly, pulmonary disease, psychosomatic, psychological and obese/physical inactivity.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127831",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -572,12 +594,13 @@
       "Scheibenbogen",
       "Kim"
     ],
+    "year": 2025,
     "technical_summary": "Pyridostigmine is currently used off-label in ME/CFS and postural orthostatic tachycardia syndrome. It has a positive effect on muscle strength and Orthostatic function. It may be attributed to increased acetylcholine availability at neuromuscular junctions.",
     "patient_summary": "Pyridostigmine is currently used off-label in ME/CFS and postural orthostatic tachycardia syndrome. Study showed efficacy of the acetylcholinesterase inhibitor pyridstigmine on cardiac output.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127844",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -595,12 +618,13 @@
       "Natelson",
       "Xu"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Long-COVID are complex, disabling conditions that affect millions worldwide. Neuroimaging offers a promising, noninvasive window into the brain's metabolic landscape. Recent advancements in metabolic neuroimaging reveal alterations in glucose and oxygen metabolism, neurotransmitter balance, and oxidative stress.",
     "patient_summary": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Long-COVID are complex, disabling conditions. Despite their growing prevalence, effective diagnostics and treatments remain limited. Neuroimaging offers a promising, noninvasive window into the brain's metabolic landscape.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127853",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -618,12 +642,13 @@
       "Granata",
       "Saal"
     ],
+    "year": 2025,
     "technical_summary": "Solriamfetol is a dual norepinephrine-dopamine reuptake inhibitor that promotes wakefulness in obstructive sleep apnea and narcolepsy. This study was a phase 4, double-blind, randomized, placebo-controlled trial in adults with ME/CFS. The primary outcome was Fatigue Symptom Inventory (FSI) scores, and the secondary outcome was Behavioral Rating Inventory of Executive Function for Adults (BRIEF-A).",
     "patient_summary": "Solriamfetol is a selective dual norepinephrine-dopamine reuptake inhibitor that promotes wakefulness in obstructive sleep apnea and narcolepsy. This was a phase 4, double-blind, randomized, placebo-controlled trial of solriam Fetol in adults with ME/CFS.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127861",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -637,12 +662,13 @@
       "Cooper",
       "Papadopoulos"
     ],
+    "year": 2025,
     "technical_summary": "This study evaluated the effectiveness of Pacing Therapy (PT) and Graded Exercise Therapy (GET) in improving fatigue, pain, and Quality of Life in adults with ME/CFS. GET showed the highest recovery rates for ME/ CFS. APT and SMC showed significant improvements in fatigue and physical function at 2.5 years.",
     "patient_summary": "This study aimed to evaluate the effectiveness of Pacing Therapy (PT) and Graded Exercise Therapy (GET) in improving fatigue, pain, and Quality of Life in adults with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. Out of 925 studies, six met the inclusion criteria, analyzing a total of 2280 participants. GET showed the highest recovery rates for ME/CFS.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127867",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -663,12 +689,13 @@
       "Baijnath",
       "Bergquist"
     ],
+    "year": 2025,
     "technical_summary": "Tryptophan (TRP) metabolic pathway produces kynurenine (KYN) and serotonin (5-HT). KYN plays a crucial role in neuroprotection, while 5-HT impacts mood and sleep patterns. In the acute study, Sprague-Dawley rats were given 100 mg/kg of KYN once daily for 14 days. Following the treatment, the animals were terminated by decapitation and their brains were dissected.",
     "patient_summary": "The tryptophan (TRP) metabolic pathway produces kynurenine (KYN) and serotonin (5-HT) KYN plays a crucial role in neuroprotection, while 5-HT impacts mood and sleep patterns. The production of KYN is increased in response to inflammatory cytokines and cortisol release.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127876",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -692,12 +719,13 @@
       "Carta",
       "Cossu"
     ],
+    "year": 2025,
     "technical_summary": "Long COVID-19 has been linked to persistent clinical manifestations, including chronic fatigue syndrome/myalgic encephalomyelitis (CFS/ME). The relationship between this syndrome and pre-existing conditions such as hypothyroidism and bipolar spectrum disorders is not clearly established. This study investigates the prevalence of these conditions in long-term COVID patients.",
     "patient_summary": "Long COVID has been increasingly linked to persistent clinical manifestations, including chronic fatigue syndrome/myalgic encephalomyelitis (CFS/ME) The relationship between this syndrome and pre-existing conditions such as bipolar spectrum disorders and hypothyroidism is not yet clearly established.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127884",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -718,12 +746,13 @@
       "Zhan",
       "Cheng"
     ],
+    "year": 2025,
     "technical_summary": "Chronic fatigue syndrome (CFS) is a complex disease involving multiple systems throughout the body with unknown pathogenesis. No effective treatment for CFS has been found. Exosomes, a subpopulation of extracellular vesicles (EVs), can mediate inter-organ and inter-cellular communication. Long noncoding RNAs (LncRNAs) in EVs can be used as potential biomarkers for early identification of CFS.",
     "patient_summary": "Chronic fatigue syndrome (CFS) is a complex disease involving multiple systems throughout the body. To date, no effective treatment for CFS has been found. Exosomes, a subpopulation of extracellular vesicles (EVs), are secreted by cells into the surrounding environment. Long noncoding RNAs (LncRNAs) in EVs can mediate inter-organ and inter-cellular communication.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127891",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -741,12 +770,13 @@
       "Zhang",
       "Yang"
     ],
+    "year": 2025,
     "technical_summary": "Chronic fatigue syndrome (CFS) is a debilitating multisystem disorder with an increasing prevalence. Animal models play a crucial role in understanding the pathogenesis of CFS and testing potential therapies. This study reviews the methods for developing and assessing CFS models, analyzes their strengths and limitations, and identifies key challenges in current research.",
     "patient_summary": "Chronic fatigue syndrome (CFS) is a debilitating multisystem disorder. Animal models play a crucial role in understanding the pathogenesis of CFS and testing potential therapies. This study provides a comprehensive review of the methods for developing and assessing CFS models.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127898",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -780,12 +810,13 @@
       "Hazazi",
       "Rabaan"
     ],
+    "year": 2025,
     "technical_summary": "Post-COVID-19 vaccination syndrome (PCVS) is a long-term sequelae of myocarditis, VITT, or immune thrombocytopaenia purpura (ITP). PCVS overlaps with long COVID, but PCVS may involve more frequent paraesthesia and less dyspnoea. PCVS remains a poorly understood condition.",
     "patient_summary": "Post-COVID-19 vaccination syndrome (PCVS) typically manifests within days to weeks post-vaccination. PCVS overlaps with long COVID, such as fatigue and brain fog, but PCVS may involve more frequent paraesthesia and less dyspnoea.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127910",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -812,12 +843,13 @@
       "Unger",
       ""
     ],
+    "year": 2025,
     "technical_summary": "Autonomic dysfunction is common in infection-associated chronic conditions and illnesses, including myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). Autonomic dysfunction was assessed using the Composite Autonomic Symptom Scale 31 (COMPASS-31), medical history, and a lean test originally described by the National Aeronautics and Space Administration (NASA). Illness severity was assessed by the Patient-Reported Outcomes Measurement Information System measures and the 36-item short-form. The study included 442 participants who completed the baseline assessment.",
     "patient_summary": "Study aimed to evaluate autonomic symptoms and their impact on ME/CFS illness severity. Autonomic dysfunction was assessed using the Composite Autonomic Symptom Scale 31 (COMPASS-31), medical history, and a lean test originally described by the National Aeronautics and Space Administration (NASA) Those with symptoms in the OI, gastrointestinal, and pupillomotor domains had significantly higher illness severity than those without these symptoms.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127918",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -837,12 +869,13 @@
       "Chatterjee",
       "Tate"
     ],
+    "year": 2025,
     "technical_summary": "Post-exertional malaise (PEM) is a defining symptom of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). This study investigated the temporal-longitudinal DNA methylation changes associated with PEM using a structured two-day maximum repeated effort cardiopulmonary exercise testing (CPET) protocol involving pre- and two post-exercise blood samplings from five ME/C FS patients.",
     "patient_summary": "Post-exertional malaise (PEM) is a defining symptom of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) This study investigated the temporal-longitudinal DNA methylation changes associated with PEM using a structured two-day maximum repeated effort cardiopulmonary exercise testing (CPET) protocol.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127927",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -858,12 +891,13 @@
       "Petrie",
       "Chalder"
     ],
+    "year": 2025,
     "technical_summary": "Hospital Anxiety and Depression Scale (HADS) is widely used for assessing psychological distress in medical populations, but its clinimetric properties in chronic fatigue conditions (CFS) remain underexplored. Rasch analysis was conducted on HADS responses from 286 participants diagnosed with CFS. The HADS demonstrated acceptable measurement properties in CFS patients.",
     "patient_summary": "The Hospital Anxiety and Depression Scale (HADS) is widely utilized for assessing psychological distress in medical populations. Given the complex symptom presentation in chronic fatigue syndrome (CFS), rigorous clinimetric validation is essential for accurate clinical assessment. The HADS demonstrated acceptable measurement properties in patients with CFS.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127935",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -882,12 +916,13 @@
       "Seifert",
       "Bär"
     ],
+    "year": 2025,
     "technical_summary": "Mental fatigue is a clinically relevant symptom across a wide range of mental and neurological disorders. A meta-analysis of neuroimaging studies identified a widespread cortical-subcortical network involving frontal, limbic, basal ganglia and parietal structures. Key nodes are located in the lateral frontal cortex, cingulate cortex, insula, thalamus, precuneus and caudate.",
     "patient_summary": "Mental fatigue is a clinically relevant symptom across a wide range of mental and neurological disorders. To identify a transdiagnostic functional network associated with fatigue, we conducted an activation likelihood estimation meta-analysis of neuroimaging studies. Key nodes located in the lateral frontal cortex, cingulate cortex, insula, thalamus and precuneus.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127942",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -908,12 +943,13 @@
       "Al Karam",
       "Bornstein"
     ],
+    "year": 2025,
     "technical_summary": "Diabetes and metabolic disorders are highly prevalent in the Middle East and North Africa (MENA) region. Extracorporeal therapies, such as apheresis, effectively reduces plasma lipids and inflammatory markers. Apheresis has shown promise in reducing autoantibodies associated to long-COVID.",
     "patient_summary": "Cardiovascular and metabolic disorders, particularly diabetes and obesity, are highly prevalent in the Middle East and North Africa. Extracorporeal therapies, such as apheresis, effectively reduces plasma lipids and inflammatory markers. Apheresis has shown promise in reducing autoantibodies associated to long-COVID.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127951",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -929,12 +965,13 @@
       "Nwankwere",
       "Baraniuk"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and Gulf War Illness (GWI) have similar profiles of pain, visceral interoception, and tenderness. Dolorimetry, a proxy for tenderness, may be correlated with subjective symptoms. Relationship with fatigue was assessed in Chronic Idiopathic Fatigue (CIF).",
     "patient_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and Gulf War Illness (GWI) have similar profiles of pain (nociception), visceral interoception, and tenderness (central sensitization) That may be due to dysfunction of midbrain and medulla descending antinociceptive and antiinteroceptive mechanisms. If so, then dolorimetry, a proxy for tenderness, may be correlated with subjective symptoms.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127959",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -947,12 +984,13 @@
     "authors": [
       "Popkirov"
     ],
+    "year": 2025,
     "technical_summary": "Changes in handgrip strength have been adapted as a clinical biomarker for myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). Some have proposed that strength impairments are better explained by alterations in higher-order motor control. In the serial measurements, exertion can be assessed through analysis of variation. CV is compared in a subsample of participants with normal indexes of fatigability. Compared to healthy controls, patients had significantly higher CV, largely over the 15% cutoff associated with submaximal exertion.",
     "patient_summary": "Handgrip strength has recently been adapted as clinical biomarkers for myalgic encephalomyelitis/chronic fatigue syndrome. Some have proposed that strength impairments in ME/CFS are better explained by alterations in higher-order motor control. In serial measurements, exertion can been assessed through analysis of variation.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127967",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -968,12 +1006,13 @@
       "Xia",
       "Wang"
     ],
+    "year": 2025,
     "technical_summary": "Diet therapy is the most effective in improving depression or depressive symptoms in patients with CFS. Moxibustion (Mox) is followed by acupuncture (Ap) and acupoint embedding (Ap + Mox). Further carefully designed RCTs are needed to substantiate the findings.",
     "patient_summary": "The therapeutic effects of various non-pharmacological interventions remain unclear. Diet therapy is the most effective in improving depression or depressive symptoms in patients with CFS. acupuncture (Ap) + Mox + acupoint embedding (SMD = -3.16, 95% CI: -0.39 to 5.98)",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127974",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1004,12 +1043,13 @@
       "Komaroff",
       "Lipkin"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is characterized by unexplained fatigue, post-exertional malaise (PEM), and cognitive dysfunction. We present a multi-omics analysis based on plasma metabolomic and proteomic profiling, and immune responses to microbial stimulation before and after exercise.",
     "patient_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is characterized by unexplained fatigue, post-exertional malaise (PEM), and cognitive dysfunction. We present a multi-omics analysis based on plasma metabolomic and proteomic profiling, and immune responses to microbial stimulation.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127983",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1022,12 +1062,13 @@
     "authors": [
       ""
     ],
+    "year": 2025,
     "technical_summary": "This corrects the article DOI: 10.3389/fmed.2025.1607353 and it's not the first time it's been published. It's also the second time the article has been published with the wrong name. It was published in the journal Femail.",
     "patient_summary": "The study was published in the journal Frontiers in Medicine. The author explains the research in simple, clear language for patients. For confidential support call the Samaritans on 08457 90 90 90, visit a local Samaritans branch or see www.samaritans.org.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127989",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1045,12 +1086,13 @@
       "Davenport",
       "Weimbs"
     ],
+    "year": 2025,
     "technical_summary": "Long COVID is an infection-associated chronic condition that occurs after SARS-CoV-2 infection. There are no evidence-based or FDA-approved interventions to treat the condition. This case report highlights clinically meaningful improvements in Long COVID symptoms following a remotely-delivered, ketogenic metabolic therapy combined with group health coaching.",
     "patient_summary": "Long COVID is an infection-associated chronic condition that occurs after SARS-CoV-2 infection. Despite the high burden, there are no evidence-based or FDA-approved interventions to treat the condition.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.127997",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1066,12 +1108,13 @@
       "Zirkenbach",
       "Blome"
     ],
+    "year": 2025,
     "technical_summary": "The Wound-QoL assesses patients' health-related quality of life. 305 patients from European countries completed it and a global question. They had most frequently leg ulcers (49.2% of them male). They developed a set of bands based on the results of the study.",
     "patient_summary": "The Wound-QoL assesses patients' health-related quality of life. Quick and valid interpretation of the results is crucial, but no thresholds have yet been established. The 305 patients (mean age: 68.5 years; 52.8% male) had most frequently leg ulcers (49.2%).",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128010",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1091,12 +1134,13 @@
       "Floyd",
       "Hall"
     ],
+    "year": 2025,
     "technical_summary": "Pain has been shown to be a motivator for OUD onset, maintenance, relapse, and treatment delay. Comorbidity between OUD and chronic pain is substantial. Chronic overlapping pain conditions (COPCs) are refractory to traditional forms of pain treatment and adversely impact comorbid OUD. The COPCs screener was used to describe COPCs and pain distribution in a sample of people with OUD recruited from a syringe exchange program.",
     "patient_summary": "Pain has been shown to be a motivator for OUD onset, maintenance, relapse, and treatment delay. A cluster of pain conditions known as chronic overlapping pain conditions (COPCs) are particularly refractory to traditional forms of pain treatment. Findings support further investigations into COPCs in the context of OUD.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128019",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1120,12 +1164,13 @@
       "Lie",
       "Viken"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a chronic and debilitating disease with unknown cause. Involvement of infection and immune dysregulation has been suggested, including changes in immune cell subsets and abnormal functions of natural killer (NK) cells. The regulatory NK cell receptors, killer cell immunoglobulin-like receptors (KIR) have previously been investigated in small cohorts of patients. Here, we studied KIR genes also at the allelic level using high-resolution sequencing in 418 patients and 473 healthy controls. Three KIR alleles were more frequent in patients and two were less frequent.",
     "patient_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a chronic and debilitating disease with unknown cause. Involvement of infection and immune dysregulation has been suggested, including changes in immune cell subsets and abnormal functions of natural killer (NK) cells. The regulatory NK cell receptors, killer cell immunoglobulin-like receptors (KIR) have previously been investigated.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128027",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1145,12 +1190,13 @@
       "Levine",
       "Rischard"
     ],
+    "year": 2025,
     "technical_summary": "PASC and CFS/ME are post-acute sequelae of SARS-CoV-2 and chronic fatigue syndrome/myalgic encephalitis. They share symptoms such as exertional dyspnea. Invasive cardiopulmonary exercise testing was performed on 15 PASC patients, 11 CFS or ME patients and 11 controls. Skeletal muscle O<sub>2</sub> diffusion was the most impaired parameter in both patient groups.",
     "patient_summary": "Post-acute sequelae of SARS-CoV-2 (PASC) and chronic fatigue syndrome/myalgic encephalitis (CFS/ME) share symptoms such as exertional dyspnea. We used exercise oxygen pathway analysis, comprising six parameters of oxygen transport and utilization, to identify limiting mechanisms in both conditions.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128034",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1174,12 +1220,13 @@
       "Sariahmed",
       "Morone"
     ],
+    "year": 2025,
     "technical_summary": "Chronic low back pain (cLBP) is common and is one of the Chronic Overlapping Pain Conditions (COPCs), 10 conditions with similar underlying pathophysiology. People with COPCs reported more pain symptoms, higher levels of anxiety, depression, fatigue and scored worse on measures of physical functioning and pain symptoms.",
     "patient_summary": "Chronic low back pain (cLBP) is extremely common and is one of the Chronic Overlapping Pain Conditions (COPCs) People with COPCs reported more pain symptoms, higher levels of anxiety, depression, fatigue and scored worse across measures of physical functioning and pain symptoms.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128064",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1193,12 +1240,13 @@
       "Oka",
       "Lkhagvasuren"
     ],
+    "year": 2025,
     "technical_summary": "Pilot study investigated the effect of recumbent isometric yoga on the orthostatic cardiovascular response of patients with ME/CFS. The study found that the patients who performed the yoga for 12 weeks had a reduced increase in PR after standing up. This pilot study suggests that yoga would be useful as an adjunctive nonpharmacological intervention for improving POTS in patients with Me/C FS.",
     "patient_summary": "Some patients with ME/CFS have postural orthostatic tachycardia syndrome (POTS) A pilot study was done to investigate the effect of recumbent isometric yoga on the cardiovascular response. The study found that the patients who manifested POTS had a reduced increase in PR after standing up.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128071",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1226,12 +1274,13 @@
       "Iwasaki",
       "Krumholz"
     ],
+    "year": 2025,
     "technical_summary": "Postural orthostatic tachycardia syndrome (POTS) has emerged as a significant cardiovascular phenotype among people with postacute COVID-19 syndrome. POTS status was determined by self-reported diagnosis of POTS. Participants with POTS were younger, had more financial difficulties, more social isolation, more suicidal thoughts, and worse health status.",
     "patient_summary": "Postural orthostatic tachycardia syndrome (POTS) has emerged as a significant cardiovascular phenotype among individuals experiencing postacute COVID-19 syndrome. We compared the demographics, symptoms, associated conditions, and health status of people with and without self-reported POTS. Participants with POTS were younger, had more financial difficulties, more social isolation, more suicidal thoughts.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128081",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1257,12 +1306,13 @@
       "Nepotchatykh",
       "Moreau"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis (ME) is a chronic, multisystem illness characterized by post-exertional malaise (PEM) and cognitive dysfunction. This study investigated haptoglobin (Hp) as a potential biomarker of PEM severity and cognitive impairment in ME.",
     "patient_summary": "Myalgic encephalomyelitis (ME) is a chronic, multisystem illness characterized by post-exertional malaise and cognitive dysfunction. This study investigated haptoglobin (Hp) as a potential biomarker of PEM severity and cognitive impairment in ME.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128092",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1280,12 +1330,13 @@
       "Godbout",
       "Moreau"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis (ME) and fibromyalgia (FM) are overlapping syndromes characterized by persistent fatigue, cognitive difficulties, and post-exertional malaise. Fibroblast growth factor 21 (FGF-21), a stress-responsive metabolic hormone, may offer a promising avenue to distinguish subtypes within these patient populations.",
     "patient_summary": "Myalgic encephalomyelitis (ME) and fibromyalgia (FM) are overlapping syndromes. Fibroblast growth factor 21 (FGF-21), a stress-responsive metabolic hormone, may offer a promising avenue to distinguish subtypes within these patient populations.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128102",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1324,12 +1375,13 @@
       "Viktil",
       "Thorsen"
     ],
+    "year": 2025,
     "technical_summary": "There is a lack of randomized controlled trials testing interventions to reduce fatigue levels among lymphoma survivors with CF. The REFUEL trial is a 2-armed randomized controlled trial. Lymphoma survivors (2-12 years after diagnosis) with CF are randomly allocated to a 12-week multidisciplinary intervention. ",
     "patient_summary": "Chronic fatigue (CF) is a highly disabling late effect after cancer, affecting 25% to 40% of lymphoma survivors years after cancer treatment. There is a lack of randomized controlled trials testing interventions to reduce fatigue levels among survivors with CF. The REFUEL trial is a 2-armed randomized controlled trial.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128119",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1348,12 +1400,13 @@
       "Moneghetti",
       "Armstrong"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a complex and debilitating condition with a large proportion of patients that experience orthostatic intolerance (OI). This systematic review aimed to assess whether cerebral blood flow (CBF) is reduced in ME/Cfs and OI and whether the presence of both conditions leads to an additional decline in CBF. Of 14,928 articles, 118 were included. CBF was significantly reduced in 12 of the articles focused on ME and 56 on OI.",
     "patient_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a complex and debilitating condition with a large proportion of patients that experience orthostatic intolerance (OI) This systematic review aimed to assess whether cerebral blood flow (CBF) is reduced in ME/C FS and OI, and whether presence of both conditions leads to an additional decline in CBF.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128130",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1368,12 +1421,13 @@
       "Levenig",
       "Titze"
     ],
+    "year": 2025,
     "technical_summary": "Fatigue and chronic pain show a high level of comorbidity. Psychosocial factors, such as emotional distress, dysfunctional behavioral responses to fatigue or pain or social stigmatizing can be involved in the perpetuation of the complaints. Physiological processes, autonomic dysregulation, an altered activation of adrenocortical activity as well as altered brain activity are discussed as biological mechanisms.",
     "patient_summary": "Fatigue and chronic pain show a high level of comorbidity. Psychosocial factors can be involved in the perpetuation of the complaints. Physiological processes, such as autonomic dysregulation, an altered activation of adrenocortical activity are increasingly being discussed.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128136",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1388,12 +1442,13 @@
       "Fazil",
       "Lavis"
     ],
+    "year": 2025,
     "technical_summary": "People with ME/CFS are often housebound and isolated. This study aims to broaden the knowledge on how people with ME gain online connections. Qualitative interviews will be conducted with adults aged over 18 years with a diagnosis or self-diagnosis of ME or CFS (n=20-25). A semi-structured topic guide will be used to interview participants. Interviews will be recorded and transcribed verbatim. Data will be thematically analysed.",
     "patient_summary": "Myalgic encephalomyelitis (ME), also known as chronic fatigue syndrome (CFS), is a debilitating chronic illness that affects the central nervous and immune systems. With reported higher online use than in other chronic illnesses, people with ME/CFS are often housebound and isolated. Due to a lack of biomarkers, the illness is often contested, causing invalidation and stigma for those affected.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128143",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1412,12 +1467,13 @@
       "Knoop",
       "van Straten"
     ],
+    "year": 2025,
     "technical_summary": "CBT-F and CBT-I are effective therapies when severe fatigue and insomnia co-occur. Changes in the severity of both symptoms after CBT are associated with the effectiveness of the therapy, but can persist after successfully treating the target symptom. There were no differences in the treatment outcomes between patients with and without co- Occurring fatigue.",
     "patient_summary": "CBT-F and CBT-I maintain their effectiveness when severe fatigue and insomnia co-occur. Changes in severity of both symptoms after CBT are associated, but the co- Occurring symptom can persist after successfully treating the target symptom.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128150",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1445,12 +1501,13 @@
       "Rocha",
       "Carta"
     ],
+    "year": 2025,
     "technical_summary": "Some people with Long COVID develop persistent symptoms, including fatigue, pain, cognitive difficulties, and psychological distress. This Phase II controlled trial aimed to evaluate the feasibility and preliminary efficacy of Heart Rate Variability Biofeedback (HRV-BF) in people with COVID who meet the diagnostic criteria for CFS/ME. The overall drop-out rate was low, and participants reported a generally high level of satisfaction. ",
     "patient_summary": "Heart Rate Variability Biofeedback (HRV-BF) was tested in individuals with Long COVID who meet the diagnostic criteria for CFS/ME. The overall drop-out rate was low and participants reported a generally high level of satisfaction. A significantly greater improvement in severe fatigue was observed in the experimental group.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128170",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1463,12 +1520,13 @@
     "authors": [
       "Dooley"
     ],
+    "year": 2025,
     "technical_summary": "Chronic inflammatory response syndrome (CIRS) and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) are debilitating multisystem illnesses that share overlapping symptoms and molecular patterns. This review provides a chronological synthesis of biomarker development in CIRS tracing its evolution from functional tests to advanced transcriptomic profiling.",
     "patient_summary": "Chronic inflammatory response syndrome (CIRS) and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) are debilitating multisystem illnesses that share overlapping symptoms and molecular patterns. This review provides a chronological synthesis of biomarker development in CIRS.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128176",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1482,12 +1540,13 @@
       "Agarwal",
       "Friedman"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is a worldwide challenge. There are an estimated 17-24 million patients worldwide, with an estimated 60 percent or more who have not been diagnosed. In-school healthcare provider education is limited. NJME/CFSA has developed an incentive-driven learning program for students of the health professions. The program offers a yearly scholarship program in which applicants write a scholarly paper on an ME-CFS-related topic. The first place winner's essay addresses the biological basis of ME/C FS and how the healthcare provider can improve the quality of life of patients.",
     "patient_summary": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is a worldwide challenge. There are an estimated 17-24 million patients worldwide, with an estimated 60 percent or more who have not been diagnosed. In-school healthcare provider education is limited.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128185",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1501,12 +1560,13 @@
       "Li",
       "Chen"
     ],
+    "year": 2025,
     "technical_summary": "The relationship between Epstein-Barr virus (EBV) infection and frailty and fatigue remains unclear. This study used a two-sample Mendelian Randomization (MR) framework to investigate the causal relationship between EBV infection and the development of these conditions. The outcomes assessed were frailty, defined by the Frailty Index (FI), and fatigue, measured through Chronic Fatigue Syndrome (CFS), Malaise and Fatigue (MF).",
     "patient_summary": "The causal relationship between Epstein-Barr virus (EBV) infection and frailty or fatigue remains unclear. This study utilized a two-sample Mendelian Randomization (MR) framework to investigate the causal relationship. The outcomes assessed were frailty, defined by the Frailty Index (FI), and fatigue, measured through Chronic Fatigue Syndrome (CFS)",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128196",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1528,12 +1588,13 @@
       "Hanson",
       "De Vlaminck"
     ],
+    "year": 2025,
     "technical_summary": "People living with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) have heterogeneous and debilitating symptoms that lack sufficient biological explanation. Circulating cell-free RNA (cfRNA) is a blood-borne bioanalyte to monitor ME/C FS. It is released into the bloodstream during cellular turnover and reflects dynamic changes.",
     "patient_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) has heterogeneous and debilitating symptoms. circulating cell-free RNA (cfRNA) is released into the bloodstream during cellular turnover. We profiled cfRNA in plasma by RNA sequencing for 93 ME/C FS cases and 75 healthy sedentary controls.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128205",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1550,12 +1611,13 @@
       "van Loo",
       "Gillespie"
     ],
+    "year": 2025,
     "technical_summary": "Functional disorders (FDs) are associated with internalizing disorders (IDs). Studies investigating the nature of these associations over time are limited. The Lifelines Cohort Study is a large prospective population-based cohort study in the northeast of the Netherlands. FDs were more stable over time than IDs.",
     "patient_summary": "Functional disorders (FDs) are associated with internalizing disorders (IDs) Studies investigating the nature of these associations over time are limited. We tested the direction of causation between measures of IDs (major depressive disorder [MDD], generalized anxiety disorder [GAD) and FDs. FDs were more stable over time than IDs.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128212",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1576,12 +1638,13 @@
       "Rosmalen",
       "van Loo"
     ],
+    "year": 2025,
     "technical_summary": "Functional and internalizing disorders share familial risk with immune-related and cardiometabolic diseases. Future studies should investigate such risk factors to identify novel treatment targets for FDs, as suggested by the study.   .   i   in the study included 166,774 subjects (aged 3-94) from the population-based Lifelines Cohort Study. ",
     "patient_summary": "Functional disorders share familial risk with internalizing disorders. Internalizing disorders such as depression are comorbid with cardiometabolic and immune-related diseases. Future studies should investigate such risk factors to identify novel treatment targets.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128224",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1612,12 +1675,13 @@
       "Komaroff",
       "Lipkin"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is characterized by unexplained fatigue, post-exertional malaise (PEM), and cognitive dysfunction. ME/Cfs patients often report a prodrome consistent with infection. We present a multi-omics analysis based on plasma metabolomic and proteomic profiling, and immune responses to microbial stimulation before and after exercise.",
     "patient_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is characterized by unexplained fatigue, post-exertional malaise (PEM), and cognitive dysfunction. We present a multi-omics analysis based on plasma metabolomic and proteomic profiling, and immune responses to microbial stimulation.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128234",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1634,12 +1698,13 @@
       "Bragée",
       "Polo"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic Encephalomyelitis/Chronic fatigue syndrome (ME/CFS) is a debilitating condition with no single, uniformly effective pharmacologic therapy. Intermittent saline infusion may reduce symptoms associated with dysautonomia, but it has not been tested scientifically in patients with this condition. In this case-series, 22 patients were treated every third week for 9 weeks with intravenous saline (9 mg/mL NaCl) and their quality-of-life and POTS-related symptoms improved significantly.",
     "patient_summary": "Intermittent saline infusion may reduce symptoms associated with dysautonomia. But this has not been tested scientifically in patients with ME/CFS. 22 patients were treated every third week over 9 weeks with intravenous saline.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128242",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1657,12 +1722,13 @@
       "Mooren",
       "Schmitz"
     ],
+    "year": 2025,
     "technical_summary": "Post-COVID syndrome (PCS) is a frequent condition with an incidence of 7.8-10.6 per 100 unvaccinated and 3.5-5.3 per 100 vaccinated persons. PCS is limiting patients' occupational, educational, and social activities severely. Study aimed to develop a diary to keep record of daily changes in energy levels of patients with PCS to adapt their rehabilitation program. Daily energy changes were analyzed and validated using the Multidimensional Fatigue Inventory-20 (MFI-20).",
     "patient_summary": "Post-COVID syndrome (PCS) is a frequent condition with an incidence of 7.8-10.6 per 100 unvaccinated and 3.5-5.3 per 100 vaccinated persons. This study aimed to develop a diary to keep record of daily changes in energy levels of patients with PCS.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128253",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1682,12 +1748,13 @@
       "Renesca",
       "Cheema"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a debilitating condition marked by severe, long-lasting fatigue and exhaustion. Nutritional supplements and dietary interventions are often used to manage symptoms, but the efficacy of these interventions remains scarce in the current literature. ClinicalTrials.gov, Medline, PubMed, Cochrane, and Web of Science were searched for interventional studies in which patients with ME/C FS supplemented or altered their diet. The results of this review showed several supplements that suggest improvement in patients' symptomatology.",
     "patient_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a debilitating condition marked by severe, long-lasting fatigue and exhaustion. Nutritional supplements and dietary interventions are often used to manage symptoms, but the efficacy of these interventions remains scarce in the current literature.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128260",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1702,12 +1769,13 @@
       "Şakul",
       "Atilgan"
     ],
+    "year": 2025,
     "technical_summary": "Acupressure was found to be effective in alleviating CFS symptoms in office workers with Chronic Fatigue Syndrome (CFS). The acupressure group received 10 sessions over 4 weeks, targeting specific acupoints (Li4, HT7, L9, P6, Gb20, Anmian, Du20, Yin-Tang, Sp6). Each point was stimulated for 30-90 s until numbness was felt.",
     "patient_summary": "Study aimed to investigate effectiveness of acupressure in alleviating CFS symptoms in office workers. 39 participants (28 women, 11 men; average age 29.54) were divided into treatment and control groups. Acupressured group received 10 sessions over 4 weeks, targeting specific acupoints.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128270",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1731,12 +1799,13 @@
       "Fernández-Costa",
       "Ramón-Azcón"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and Long Covid-19 (LC-19) are complex conditions with no diagnostic markers or consensus on disease progression. Despite extensive research, no model exists to study skeletal muscle wasting, peripheral weakness, or potential therapies. Short exposures (48 H) to patient sera led to a significant reduction in muscle contractile strength. This is the first study to suggest such transient metabolic adaptation.",
     "patient_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and Long Covid-19 (LC-19) are complex conditions with no diagnostic markers or consensus on disease progression. Despite extensive research, no model exists to study skeletal muscle wasting, peripheral weakness, or potential therapies. We developed 3D <i>in vitro</i>skeletal muscle tissues to map muscle adaptations to patient sera over time.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128279",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1750,12 +1819,13 @@
       "Komaroff",
       "Dantzer"
     ],
+    "year": 2025,
     "technical_summary": "Long COVID-19, myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS), and various post-acute infection syndromes (PAISs) affect 60-400 million people globally. Many similar underlying biological abnormalities have been identified in both conditions including autoantibodies against neural targets and endothelial dysfunction.",
     "patient_summary": "Debilitating symptoms for many years can follow acute COVID-19 (\"long COVID\"), myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS), and various post-acute infection syndromes (PAISs) Together, long COVID and ME/C FS affect 60-400 million individuals, globally.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128284",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1770,12 +1840,13 @@
       "Li",
       "Jason"
     ],
+    "year": 2025,
     "technical_summary": "Patients with ME/CFS and PASC have memory and concentration problems and difficulties paying attention. Other neurocognitive domains such as hypersensitivity to noise and light have rarely been included as aspects of neuroc cognitive impairment for these post-viral conditions. The current study evaluated a more extensive list of items for a group of 2,313 patients with ME and 299 with PASC.",
     "patient_summary": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Post-Acute Sequelae of COVID-19 (PASC) often have neurocognitive complaints that involve memory and concentration problems and difficulties paying attention. hypersensitivity to noise and light have rarely been included as aspects of neuroc cognitive impairment for these post-viral conditions.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128292",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1797,12 +1868,13 @@
       "Perron",
       "Oltra"
     ],
+    "year": 2025,
     "technical_summary": "Post-COVID-19 condition such as ME/CFS and FM are characterized by fatigue, pain, shortness of breath, sleep disturbances, cognitive dysfunction and other symptoms. HERV-W ENV protein can be induced by viral infection and was found to be significantly expressed in post-COID-19 post-coid condition. Herv-W may also be present in prepandemic cases.",
     "patient_summary": "Post-COVID-19 condition, such as Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Fibromyalgia (FM), are characterized by fatigue, pain, shortness of breath, sleep disturbances, cognitive dysfunction and other symptoms. Expression of the toxic human endogenous retrovirus (HERV)-W ENV protein can be induced by viral infection.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128303",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1817,12 +1889,13 @@
       "Seltzer",
       "Orbelo"
     ],
+    "year": 2025,
     "technical_summary": "Patients with myalgic encephalomyelitis/chronic fatigue syndrome may report abnormalities in voice and speech. An online mixed-methods survey was completed by 685 people with ME/CFS. There were 38 mentions of the terms \"speech, voice,\" \"words,\" and \"speak\" in the results of the survey.",
     "patient_summary": "Patients with myalgic encephalomyelitis/chronic fatigue syndrome may report abnormalities in voice and speech. No formal research has been conducted in this area. An online mixed-methods survey was completed by 685 people with ME/CFS.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128311",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1841,12 +1914,13 @@
       "Chatterjee",
       "Tate"
     ],
+    "year": 2025,
     "technical_summary": "Study investigates DNA methylation patterns in peripheral blood mononuclear cells from patients with ME/CFS, Long COVID (LC) and healthy controls (HC). The global DNA methylomes of the three cohorts were similar and spread equally across all chromosomes, except the sex chromosomes. However, there were distinct minor changes in the exons of the disease cohorts towards more hypermethylation.",
     "patient_summary": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Long COVID (LC) share > 95% of their symptoms, but the connection between disturbances in their underlying molecular biology is unclear. This study investigates DNA methylation patterns in peripheral blood mononuclear cells (PBMC) from patients with ME/C FS, LC, and healthy controls (HC)",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128321",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1865,12 +1939,13 @@
       "Feliu-Soler",
       "Muro"
     ],
+    "year": 2025,
     "technical_summary": "The main objective of the present study is to assess the short-term effects of Forest Bathing (FB) conducted in a Mediterranean forest on individuals with fibromyalgia (FM) and/or chronic fatigue syndrome/myalgia encephalomyelitis (CFS/ME) on perceived pain, fatigue, state anxiety, positive and negative affect, mood states, and mindfulness. The FB session consisted of a 3 km silent walk, lasting three hours and guided by a specialized psychologist and a mountain guide.",
     "patient_summary": "Forest Bathing (FB) conducted in a Mediterranean forest on individuals with fibromyalgia (FM) and/or chronic fatigue syndrome/myalgia encephalomyelitis (CFS/ME) The FB session consisted of a 3 km silent walk, lasting three hours and guided by a specialized psychologist.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128328",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1893,12 +1968,13 @@
       "McVicker",
       "Angoa-Perez"
     ],
+    "year": 2025,
     "technical_summary": "There are many postulates for the etiology of post-viral chronic fatigue, but little is known. We used databases established from a large dataset of patients at risk of colorectal cancer followed longitudinally over 3 decades and a database dedicated to building a Long PASC cohort (Post-Acute Sequelae of COVID-19). We found significant changes in the stool microbiome and serum cytokine levels in patients with PASC.",
     "patient_summary": "There are many postulates for the etiology of post-viral chronic fatigue and other symptomatology, little is known. We draw on our past experience of these syndromes to devise means which can expose the primary players of this malady in terms of a panoply of participating biomolecules.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128338",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1919,12 +1995,13 @@
       "Unutmaz",
       "Oh"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a chronic illness with a multifactorial etiology and heterogeneous symptomatology. Here we present BioMapAI, a supervised deep neural network trained on a 4-year, longitudinal, multi-omics dataset from 249 participants.",
     "patient_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a chronic illness with a multifactorial etiology and heterogeneous symptomatology. Here we present BioMapAI, a supervised deep neural network trained on a 4-year, longitudinal, multi-omics dataset from 249 participants.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128354",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1941,12 +2018,13 @@
       "Huang",
       "Bergquist"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a multisystem disorder characterised by unrelenting fatigue, post-exertional malaise, and dysfunction across immune, nervous, metabolism, and endocrine systems. This study investigated differences in the steroid metabolome and network dynamics between ME/C FS patients and matched controls.",
     "patient_summary": "Myalgic encephalomyelitis / chronic fatigue syndrome (ME/CFS) is a multisystem disorder characterised by unrelenting fatigue, post-exertional malaise, and dysfunction across immune, nervous, metabolism, and endocrine systems. Given the broad role of steroid hormones in regulating these systems, this study investigated differences in the steroid metabolome and network dynamics between patients and matched controls.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128366",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1959,12 +2037,13 @@
     "authors": [
       "Meagher"
     ],
+    "year": 2025,
     "technical_summary": "Long Covid was first described in 2020. No clinical biomarker has been identified and no effective therapy has been developed. Recurrent Covid-19 infections are now an important contributor to the pool of people affected by long Covid. The anticipated surge of disability claims from insured individuals has not materialized.",
     "patient_summary": "Long Covid was first described in 2020. No clinical biomarker has been identified, nor has an effective therapy been developed. Recurrent Covid-19 infections are now an important contributor to the pool of affected individuals.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128371",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -1984,12 +2063,13 @@
       "Tronstad",
       "Mella"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) entails low quality of life for patients and massive societal costs. Daratumumab is a subcutaneous anti-CD38 antibody used in a pilot trial. It was well tolerated in 6 of 10 patients.",
     "patient_summary": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) entails low quality of life for patients and massive societal costs. We performed a prospective, open-label pilot trial (EudraCT 2022-000281-18). Ten female patients were enrolled. Six patients experienced marked improvement.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128379",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -2007,12 +2087,13 @@
       "Henry",
       "Duong"
     ],
+    "year": 2025,
     "technical_summary": "SARS-CoV-2 infection is associated with chronic fatigue syndrome and myalgic encephalomyelitis (CFS/ME). Long-term associations between COVID-19, new-onset CFS/ ME and other independent predictors such as vaccination, re-infection, and blood biomarkers at time of infection remain unclear. The risk of developing CFS is higher among both COV-19 hospitalized and non-hospitalized patients. Females, and individuals with autoimmune and anxiety disorders were more susceptible.",
     "patient_summary": "Fatigue is a common sequela of SARS-CoV-2 infection. Many COVID-19 patients subsequently develop chronic fatigue syndrome and myalgic encephalomyelitis (CFS/ME) Long-term associations between CO VID-19, new-onset CFS/ ME, and other independent predictors such as vaccination, re-infection, and blood biomarkers remain unclear.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128391",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -2034,12 +2115,13 @@
       "Lehmann",
       "Espinoza"
     ],
+    "year": 2025,
     "technical_summary": "The prevalence of diabetes was nearly doubled in people with visual impairments across White, Asian, and African American populations. Higher rates of chronic kidney disease were observed in visually impaired people. White people with one GFR reading were less likely to receive an A1C test or a GFR test, while African Americans with visual impairment were more likely to get both.",
     "patient_summary": "The prevalence of diabetes was nearly doubled in individuals with visual impairments across White, Asian, and African American populations. Higher rates of chronic kidney disease were observed in visually impaired individuals. A statistically significant difference in the risk ratio for uncontrolled diabetes was found only in the White cohort.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128407",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -2055,12 +2137,13 @@
       "Sinai",
       "Toren"
     ],
+    "year": 2025,
     "technical_summary": "Fibromyalgia is characterized by chronic widespread pain and psychiatric comorbidities. In fibromyalgia patients, anxiety (55.1%) and depression (48.7%) were predominant, accompanied by extensive medication use. Fibromyalgia showed exceptionally high relative risks for Cluster B personality disorders, personality disorders overall, and PTSD. Comprehensive and integrated multidisciplinary care strategies are necessary to address the distinct psychiatric burden associated with Fibroimyalgia.",
     "patient_summary": "Fibromyalgia is characterized by chronic widespread pain and psychiatric comorbidities. In fibromyalgia patients, anxiety (55.1%) and depression (48.7%) were predominant. Fibromyalgia showed exceptionally high relative risks for Cluster B personality disorders (RR=34)",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128413",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -2079,12 +2162,13 @@
       "Kim",
       "Chung"
     ],
+    "year": 2025,
     "technical_summary": "The study presents a capacitive sensor-based eye tracker for chronic fatigue assessment. It uses carbon nanotube-paper composite (CCPC) sensors for noncontact monitoring of blink rates and eye closures. With further testing and optimization, it holds the potential for evaluation of acute fatigue or fatigue-associated diseases such as ME/CFS.",
     "patient_summary": "Study presents capacitive sensor-based eye tracker leveraging carbon nanotube-paper composite (CCPC) sensors. CCPC sensors demonstrate superior proximity sensitivity with a small form factor. Sensors seamlessly integrated into an eyeglass frame for noncontact monitoring of blink rates and eye closures.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128420",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -2110,12 +2194,13 @@
       "Unger",
       "Ramers"
     ],
+    "year": 2025,
     "technical_summary": "Centers for Disease Control and Prevention funded the Long COVID and Fatiguing Illness Recovery Program (LC&FIRP) as a pilot project to provide tele-mentoring and other online education for primary care providers to improve quality of life and support the recovery of their patients with these conditions. Investigators interviewed patients of the Family Health Centers of San Diego (FHCSD) about their experiences receiving care from participating primary care doctors. They collected the educational recommendations provided by the lived-experience experts during webinar sessions and grouped them by themes.",
     "patient_summary": "Long COVID, myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS), and other poorly understood post-acute infection syndromes (PAIS) can present with unexplained symptoms or conditions that may be misunderstood by healthcare providers. To address these issues, the CDC funded the Long COVID and Fatiguing Illness Recovery Program (LC&FIRP)",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128428",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -2137,12 +2222,13 @@
       "Valkovič",
       "Cowen"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic encephalitis/chronic fatigue syndrome (ME/CFS) is a common debilitating medical condition. Long COVID patients had lowered levels of total choline in dACC. The changes in lactate are consistent with the presence of energetic stress and mitochondrial dysfunction. The findings suggest that the underlying neurobiological mechanisms may differ between the two conditions.",
     "patient_summary": "Myalgic encephalitis/chronic fatigue syndrome (ME/CFS) is a common debilitating medical condition. Main symptoms - fatigue, post-exertional malaise and cognitive dysfunction - are also present in many cases of long COVID. Magnetic resonance spectroscopy (MRS) allows the insight into their pathophysiology.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128435",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -2159,12 +2245,13 @@
       "Kong",
       "Xiao"
     ],
+    "year": 2025,
     "technical_summary": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Long COVID are complex multisystem conditions that pose significant challenges in healthcare. This study aims to systematically explore shared metabolic disturbances in the muscle tissue of patients. It found downregulation of the alanine and aspartate metabolism pathway and the arginine and proline metabolism pathway. L-ornithine and l-aspartate (LOLA) is a potential candidate to alleviate metabolic symptoms.",
     "patient_summary": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Long COVID are complex multisystem conditions that pose significant challenges in healthcare. This study aims to systematically explore shared metabolic disturbances in the muscle tissue of patients. We propose that a combination of l-ornithine and l-aspartate (LOLA) is a potential candidate to alleviate metabolic symptoms.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128445",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -2184,12 +2271,13 @@
       "Przybylowska-Sygut",
       "Popławski"
     ],
+    "year": 2025,
     "technical_summary": "The gut microbiome is a key modulator of the gut-brain axis and may contribute to the pathophysiology of gastrointestinal and systemic disorders. The study aimed to evaluate gut microbiota composition and tryptophan/phenylalanine metabolism in women with unclassified irritable bowel syndrome (IBS-U), with or without coexisting chronic fatigue syndrome (CFS). Eighty women were enrolled and divided into two groups.",
     "patient_summary": "The gut microbiome is a key modulator of the gut-brain axis and may contribute to the pathophysiology of both gastrointestinal and systemic disorders. This study aimed to evaluate gut microbiota composition and tryptophan/phenylalanine metabolism in women with unclassified irritable bowel syndrome.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128457",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -2207,12 +2295,13 @@
       "Brähler",
       "Hettich-Damm"
     ],
+    "year": 2025,
     "technical_summary": "The Chalder Fatigue Scale (CFQ) is a commonly used self-report instrument assessing the severity and chronicity of fatigue. The CFQ was administered to 16-96-year-olds in Germany. 14.2% of participants reported severe fatigue, while 4.3% reported being fatigued for at least six months (chronic fatigue).",
     "patient_summary": "The Chalder Fatigue Scale (CFQ) is a commonly used self-report instrument assessing the severity and chronicity of fatigue. We examine the psychometric properties of the CFQ and provide updated normative data for the German general population. The CFQ total scale showed low to moderate associations with depression, anxiety and loneliness.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128465",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -2232,12 +2321,13 @@
       "Bharmauria",
       "Flouty"
     ],
+    "year": 2025,
     "technical_summary": "Coronavirus disease 2019 (COVID-19) is caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). It is a global pandemic affecting millions worldwide. This study aims to bridge the knowledge gap between acute and chronic symptoms, vaccination impact, and associated factors in patients across different low- and middle-income countries. The study included 2,445 participants aged 18’years and older, testing positive for COVID- 19. 68.1% of the patients had symptoms lasting longer than 2 weeks. The most frequent symptoms were loss of smell, dry cough, loss of taste, headaches, and sore throat. The patients also reported high rates of depression, chronic fatigue and infection after vaccination.",
     "patient_summary": "Study aims to bridge the knowledge gap between acute and chronic symptoms, vaccination impact, and associated factors. Study included 2,445 participants aged 18 years and older, testing positive for COVID-19. 68.1% of the patients had symptoms lasting longer than 2 weeks.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128477",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -2257,12 +2347,13 @@
       "Kuo",
       "Tsai"
     ],
+    "year": 2025,
     "technical_summary": "Influenza infection is associated with an increased risk of developing Chronic Fatigue Syndrome (CFS). Influenza vaccination was associated with a reduced risk of CFS in patients who received the influenza vaccine either before or following their influenza episode. The protective effect of vaccination was not evident in patients with severe influenza.",
     "patient_summary": "Influenza infection is associated with an increased risk of developing CFS. Patients who received the influenza vaccine-either before or following their influenza episode-exhibited a lower incidence of CFS than those who remained unvaccinated. These findings suggest that preventing influenza and mitigating its severity, such as through vaccination, could reduce the burden of C FS in at-risk populations.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128485",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -2284,12 +2375,13 @@
       "Nath",
       "Walitt"
     ],
+    "year": 2025,
     "technical_summary": "Long-COVID refers to ongoing, relapsing, or new symptoms present 30 or more days after Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) infection. The most frequent neurologic symptoms post COVID-19 were fatigue, concentration/memory difficulties, unrefreshed sleep, and dysarthria/word finding difficulties (73.2-86.4%). Neurologic symptoms were highly prevalent with significantly greater odds post COV-19 compared to pre for all symptoms. Moderate to severe anxiety (34%) and depression (27%) were observed post COVI.",
     "patient_summary": "Long-COVID refers to ongoing, relapsing, or new symptoms present 30 or more days after Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) infection. Neurologic symptoms were highly prevalent with significantly greater odds post COVID-19 compared to pre for all symptoms. Moderate to severe anxiety (34%) and depression (27%) were observed post CO VID-19.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128497",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"
@@ -2311,12 +2403,13 @@
       "McCracken",
       "Wicksell"
     ],
+    "year": 2025,
     "technical_summary": "Chronic pain affects 27% of the adult population. There is a need for user-friendly, feasible, and evidence-based digital interventions. This study used a multimethod approach involving end users, patients with chronic pain and therapists to develop prototypes for a digital behavioral intervention. Focus groups highlighted the importance of accessibility and adaptability of the digital intervention.",
     "patient_summary": "Recent research shows that chronic pain affects 27% of the adult population. For many, pain significantly impairs quality of life and everyday functioning. There is a need for user-friendly, feasible, and evidence-based digital interventions.",
     "metadata": {
       "technical_summary_model": "philschmid/bart-large-cnn-samsum",
       "patient_summary_model": "facebook/bart-large-cnn",
-      "summarized_at": "2025-10-12T01:23:09",
+      "summarized_at": "2025-10-12T11:09:01",
       "fetched_at": "2025-10-12T05:21:49.128509",
       "raw_schema_version": "unknown",
       "source": "PubMed (NCBI Entrez)"

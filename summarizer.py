@@ -24,8 +24,7 @@ OUTPUT_PATH = f"data/mecfs_papers_summarized_{date.today()}.json"
 
 # You can experiment with different models:
 MODEL_TECHNICAL = "philschmid/bart-large-cnn-samsum"  # for technical summaries
-# for patient-friendly summaries
-MODEL_PATIENT = "facebook/bart-large-cnn"
+MODEL_PATIENT = "facebook/bart-large-cnn"  # for patient-friendly summaries
 
 # Initialize summarizers
 summarizer_technical = pipeline("summarization", model=MODEL_TECHNICAL)
@@ -81,7 +80,8 @@ def generate_summaries():
     now = datetime.now().isoformat(timespec="seconds")
 
     print(
-        f"🤖 Generating summaries using:\n  • Technical: {MODEL_TECHNICAL}\n  • Patient:   {MODEL_PATIENT}")
+        f"🤖 Generating summaries using:\n  • Technical: {MODEL_TECHNICAL}\n  • Patient:   {MODEL_PATIENT}"
+    )
 
     for paper in tqdm(papers, desc="Summarizing papers"):
         if not isinstance(paper, dict):
@@ -106,6 +106,7 @@ def generate_summaries():
             "title": paper.get("title"),
             "abstract": abstract,
             "authors": paper.get("authors", []),
+            "year": paper.get("year"),  # ✅ carry over publication year
             "technical_summary": tech_summary,
             "patient_summary": patient_summary,
             "metadata": {
@@ -114,8 +115,8 @@ def generate_summaries():
                 "summarized_at": now,
                 "fetched_at": paper.get("fetched_at"),
                 "raw_schema_version": raw_metadata.get("schema_version", "unknown"),
-                "source": raw_metadata.get("source", "unknown")
-            }
+                "source": raw_metadata.get("source", "unknown"),
+            },
         })
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
