@@ -2,7 +2,7 @@
 Open ME/CFS Data Pipeline — PubMed Ingest
 
 Fetches ME/CFS-related research papers from PubMed using Biopython’s Entrez API,
-extracts key metadata (title, authors, abstract, PMID), and saves the results
+extracts key metadata (title, authors, abstract, PMID, year), and saves the results
 to a local JSON file for later AI summarization.
 
 Author: Jonathan Spruance
@@ -11,6 +11,7 @@ Project: Open ME/CFS
 
 from datetime import datetime
 import json
+import re
 from typing import List, Dict
 from Bio import Entrez
 
@@ -27,14 +28,28 @@ SEARCH_TERM = (
 MAX_RESULTS = 100
 
 
-def fetch_pubmed() -> None:
-    """
-    Fetches ME/CFS papers from PubMed using Entrez API.
+def extract_pub_year(article) -> int | None:
+    """Extracts publication year from PubMed article metadata."""
+    try:
+        journal_info = article["MedlineCitation"]["Article"]["Journal"]["JournalIssue"]["PubDate"]
 
-    1. Searches PubMed for SEARCH_TERM.
-    2. Retrieves up to MAX_RESULTS abstracts in XML format.
-    3. Extracts metadata fields and writes to data/raw_papers.json.
-    """
+        # Prefer explicit <Year> tag
+        if "Year" in journal_info:
+            return int(journal_info["Year"])
+
+        # Fallback: look for 4-digit year in MedlineDate
+        elif "MedlineDate" in journal_info:
+            match = re.search(r"(19|20)\d{2}", str(
+                journal_info["MedlineDate"]))
+            if match:
+                return int(match.group(0))
+    except Exception:
+        pass
+    return None
+
+
+def fetch_pubmed() -> None:
+    """Fetches ME/CFS papers from PubMed using Entrez API."""
     print("🔍 Fetching papers from PubMed...")
 
     # Step 1: Search PubMed
@@ -45,8 +60,8 @@ def fetch_pubmed() -> None:
     print(f"Found {len(ids)} paper IDs. Fetching abstracts...")
 
     # Step 2: Fetch paper details
-    fetch = Entrez.efetch(db="pubmed", id=",".join(ids),
-                          rettype="abstract", retmode="xml")
+    fetch = Entrez.efetch(db="pubmed", id=",".join(
+        ids), rettype="abstract", retmode="xml")
     papers = Entrez.read(fetch)
 
     results: List[Dict] = []
@@ -60,13 +75,15 @@ def fetch_pubmed() -> None:
         authors = [a.get("LastName", "")
                    for a in citation.get("AuthorList", [])]
         pmid = paper["MedlineCitation"]["PMID"]
+        year = extract_pub_year(paper)  # ✅ Added publication year extraction
 
         results.append({
             "pmid": str(pmid),
             "title": title,
             "abstract": abstract,
             "authors": authors,
-            "fetched_at": datetime.utcnow().isoformat()
+            "year": year,
+            "fetched_at": datetime.utcnow().isoformat(),
         })
 
     # Step 4: Wrap results with metadata header
@@ -75,9 +92,9 @@ def fetch_pubmed() -> None:
             "search_term": SEARCH_TERM,
             "fetched_at": datetime.utcnow().isoformat(),
             "total_results": len(results),
-            "source": "PubMed (NCBI Entrez)"
+            "source": "PubMed (NCBI Entrez)",
         },
-        "papers": results
+        "papers": results,
     }
 
     # Step 5: Save to JSON
