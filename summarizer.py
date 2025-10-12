@@ -1,7 +1,7 @@
 """
 Open ME/CFS Data Pipeline — AI Summarizer
 
-Uses a pretrained model from Hugging Face (BioBART, T5, or BART)
+Uses pretrained Hugging Face models (BioBART, T5, or BART)
 to generate readable summaries of ME/CFS research abstracts.
 
 Outputs two summary types:
@@ -13,9 +13,8 @@ Project: Open ME/CFS
 """
 
 # --- Imports ---
-from datetime import date
 import json
-from datetime import datetime
+from datetime import date, datetime
 from transformers import pipeline
 from tqdm import tqdm
 
@@ -23,39 +22,72 @@ from tqdm import tqdm
 INPUT_PATH = "data/raw_papers.json"
 OUTPUT_PATH = f"data/mecfs_papers_summarized_{date.today()}.json"
 
-
 # You can experiment with different models:
-MODEL_TECHNICAL = "facebook/bart-large-cnn"   # for technical summary
-MODEL_PATIENT = "allenai/biobart-v2"          # for plain-language summary
+MODEL_TECHNICAL = "philschmid/bart-large-cnn-samsum"  # for technical summaries
+# for patient-friendly summaries
+MODEL_PATIENT = "facebook/bart-large-cnn"
 
 # Initialize summarizers
 summarizer_technical = pipeline("summarization", model=MODEL_TECHNICAL)
 summarizer_patient = pipeline("summarization", model=MODEL_PATIENT)
 
 
-# --- Functions ---
+# --- Utility functions ---
+
 def summarize_text(summarizer, text: str, max_length: int = 180, min_length: int = 60) -> str:
     """Generate a summary from text using the specified summarizer."""
     if not text.strip():
         return ""
-    result = summarizer(text, max_length=max_length,
-                        min_length=min_length, do_sample=False)
-    return result[0]["summary_text"]
+    try:
+        result = summarizer(
+            text,
+            max_length=max_length,
+            min_length=min_length,
+            no_repeat_ngram_size=3,
+            clean_up_tokenization_spaces=True,
+            do_sample=False,
+        )
+        return result[0]["summary_text"]
+    except Exception as e:
+        print(
+            f"⚠️  Summarization failed for text starting with: {text[:60]!r}... ({e})")
+        return ""
 
+
+def load_papers(path: str):
+    """Load papers from raw_papers.json (handles both old and new schemas)."""
+    print(f"📖 Loading abstracts from {path}")
+    with open(path, "r", encoding="utf-8") as f:
+        raw = json.load(f)
+
+    if isinstance(raw, dict) and "papers" in raw:
+        meta = raw.get("metadata", {})
+        papers = raw["papers"]
+    else:
+        meta = {"schema_version": "1.0", "note": "legacy format (no metadata)"}
+        papers = raw
+
+    print(
+        f"ℹ️  Loaded {len(papers)} papers (schema {meta.get('schema_version', 'unknown')})")
+    return papers, meta
+
+
+# --- Main function ---
 
 def generate_summaries():
     """Reads abstracts, generates two summaries per paper, and saves results."""
-    print(f"📖 Loading abstracts from {INPUT_PATH}")
-    with open(INPUT_PATH, "r", encoding="utf-8") as f:
-        papers = json.load(f)
-
+    papers, raw_metadata = load_papers(INPUT_PATH)
     summarized = []
-    now = datetime.utcnow().isoformat()
+    now = datetime.now().isoformat(timespec="seconds")
 
     print(
-        f"🤖 Generating summaries using:\n  • Technical: {MODEL_TECHNICAL}\n  • Patient: {MODEL_PATIENT}")
+        f"🤖 Generating summaries using:\n  • Technical: {MODEL_TECHNICAL}\n  • Patient:   {MODEL_PATIENT}")
 
     for paper in tqdm(papers, desc="Summarizing papers"):
+        if not isinstance(paper, dict):
+            print("⚠️  Skipping malformed entry (not a dict)")
+            continue
+
         abstract = paper.get("abstract", "")
         if not abstract:
             continue
@@ -66,7 +98,8 @@ def generate_summaries():
         # --- Patient-friendly summary ---
         prompt = f"Explain this research in simple, clear language for patients: {abstract}"
         patient_summary = summarize_text(
-            summarizer_patient, prompt, max_length=130, min_length=40)
+            summarizer_patient, prompt, max_length=130, min_length=40
+        )
 
         summarized.append({
             "pmid": paper.get("pmid"),
@@ -79,7 +112,9 @@ def generate_summaries():
                 "technical_summary_model": MODEL_TECHNICAL,
                 "patient_summary_model": MODEL_PATIENT,
                 "summarized_at": now,
-                "fetched_at": paper.get("fetched_at")
+                "fetched_at": paper.get("fetched_at"),
+                "raw_schema_version": raw_metadata.get("schema_version", "unknown"),
+                "source": raw_metadata.get("source", "unknown")
             }
         })
 
@@ -89,5 +124,6 @@ def generate_summaries():
     print(f"✅ Saved {len(summarized)} summarized papers to {OUTPUT_PATH}")
 
 
+# --- Entrypoint ---
 if __name__ == "__main__":
     generate_summaries()
