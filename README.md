@@ -1,63 +1,137 @@
-# 🧠 Open ME/CFS Data Pipeline
+# 🔬 Open ME/CFS — Data Pipeline
 
-The **Open ME/CFS Data Pipeline** is the first stage of the [Open ME/CFS](https://github.com/yourusername/openmecfs-platform) initiative — an open-source effort to accelerate ME/CFS research through data aggregation and artificial intelligence.
-
-This pipeline automatically:
-
-1. Fetches research papers on **Myalgic Encephalomyelitis / Chronic Fatigue Syndrome (ME/CFS)** from **PubMed** using the NCBI Entrez API.
-2. Extracts key metadata (titles, abstracts, authors, PMIDs).
-3. Summarizes each abstract using **Hugging Face Transformer models** such as BioBART and T5.
-4. Outputs clean, structured JSON files ready for use in the Open ME/CFS API and web platform.
+**Automated biomedical data ingestion and preprocessing pipeline**  
+Part of the [Open ME/CFS](https://github.com/jspruance) ecosystem.
 
 ---
 
-## 🚀 Features
+## 🧩 Overview
 
-- 🔍 Automatic retrieval of ME/CFS studies from PubMed
-- 🧠 AI-powered summarization (technical + plain-language summaries)
-- 💾 Structured JSON outputs for downstream analysis or database import
-- ⚙️ Modular, lightweight Python codebase
-- 🧩 Extensible — future integrations planned for ClinicalTrials.gov, NIH RePORTER, and PubMed Central full-text datasets
+`openmecfs-data-pipeline` automates **collection, cleaning, summarization, and embedding** of ME/CFS-related biomedical research data.
+
+It is designed to continuously ingest data from sources like **PubMed**, **NIH RePORTER**, and **DecodeME**, preparing it for downstream analysis in:
+
+- [`openmecfs-platform`](https://github.com/jspruance/openmecfs-platform) — FastAPI backend & Supabase integration
+- [`openmecfs-ai-cure`](https://github.com/jspruance/openmecfs-ai-cure) — clustering & mechanistic hypothesis generation
+- [`openmecfs-ui`](https://github.com/jspruance/openmecfs-ui) — research explorer frontend
+
+---
+
+## ⚙️ Pipeline Stages
+
+| Stage                      | Description                                                       | Status         |
+| -------------------------- | ----------------------------------------------------------------- | -------------- |
+| **1. Fetch papers**        | Retrieve ME/CFS-related abstracts and metadata from PubMed API.   | ✅ Done        |
+| **2. Clean + dedupe**      | Normalize author names, titles, and remove duplicates.            | ✅ Done        |
+| **3. Summarize**           | Generate technical and lay summaries using Hugging Face models.   | ✅ Done        |
+| **4. Embeddings**          | Create semantic embeddings with `sentence-transformers`.          | ✅ Done        |
+| **5. JSON export**         | Save enriched data to `/data/processed/` in JSON format.          | ✅ Done        |
+| **6. Upload to Supabase**  | Push records and embeddings to Postgres (`papers` table).         | ✅ Done        |
+| **7. Incremental updates** | Only fetch and update new or modified papers.                     | ⚙️ In progress |
+| **8. Integration**         | Provide data to `openmecfs-ai-cure` for subtyping and clustering. | ✅ Connected   |
 
 ---
 
 ## 🧰 Tech Stack
 
-| Layer            | Tool / Library                                       | Purpose                                 |
-| ---------------- | ---------------------------------------------------- | --------------------------------------- |
-| Data Access      | [Biopython](https://biopython.org/)                  | Interface to PubMed / NCBI Entrez API   |
-| AI Summarization | [Hugging Face Transformers](https://huggingface.co/) | Pretrained models (BioBART, T5)         |
-| Compute Engine   | [PyTorch](https://pytorch.org/)                      | Neural network backend for Transformers |
-| API-ready        | [FastAPI](https://fastapi.tiangolo.com/)             | Future integration for serving data     |
-| Storage          | JSON / (Supabase planned)                            | Structured, open-format outputs         |
+| Layer           | Tools                                                                    |
+| --------------- | ------------------------------------------------------------------------ |
+| Language        | Python 3.12                                                              |
+| Package Manager | Poetry                                                                   |
+| APIs            | PubMed E-Utilities, NIH RePORTER                                         |
+| NLP             | Hugging Face Transformers (`facebook/bart-large-cnn`, `allenai/scibert`) |
+| Embeddings      | `sentence-transformers/all-MiniLM-L6-v2`                                 |
+| Storage         | Supabase (Postgres + pgvector)                                           |
+| Logging         | Rich + tqdm                                                              |
 
 ---
 
-## 🧩 Repository Purpose
+## 🛠️ Setup
 
-This repo powers the **knowledge ingestion layer** of the Open ME/CFS ecosystem.  
-It serves as the foundation for:
+### 1️⃣ Clone the repository
 
-- the [`openmecfs-platform`](https://github.com/yourusername/openmecfs-platform) (API and database),
-- and the [`openmecfs-ui`](https://github.com/yourusername/openmecfs-ui) (public-facing research explorer).
+```bash
+git clone https://github.com/jspruance/openmecfs-data-pipeline.git
+cd openmecfs-data-pipeline
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+poetry install
+```
+
+### 3️⃣ Create `.env` file
+
+```bash
+SUPABASE_URL=https://YOUR_PROJECT.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=YOUR_SERVICE_ROLE_KEY
+SUPABASE_ANON_KEY=YOUR_ANON_KEY
+```
 
 ---
 
-## 🧭 Roadmap
+## 🚀 Usage
 
-| Phase          | Goal                                                          |
-| -------------- | ------------------------------------------------------------- |
-| ✅ **Phase 1** | Fetch + summarize PubMed abstracts                            |
-| 🧩 **Phase 2** | Integrate with ClinicalTrials.gov + NIH RePORTER              |
-| ⚙️ **Phase 3** | Expand to PubMed Central full texts                           |
-| 🌐 **Phase 4** | Deploy REST API (FastAPI + Supabase)                          |
-| 💬 **Phase 5** | Support a public ME/CFS research dashboard & community portal |
+### Fetch new PubMed papers
+
+```bash
+poetry run python -m pipeline.fetch_papers --query "myalgic encephalomyelitis chronic fatigue syndrome"
+```
+
+### Summarize abstracts
+
+```bash
+poetry run python -m pipeline.summarize_abstracts
+```
+
+### Generate embeddings
+
+```bash
+poetry run python -m pipeline.embed_papers
+```
+
+### Upload to Supabase
+
+```bash
+poetry run python -m pipeline.json_to_db
+```
 
 ---
 
-## 💙 Mission
+## 📦 Folder Structure
 
-The goal of Open ME/CFS is to **democratize biomedical research** — using open data, open source, and AI to connect scientists, clinicians, and patients working toward understanding and treating Myalgic Encephalomyelitis / Chronic Fatigue Syndrome.
+```
+openmecfs-data-pipeline/
+├── pipeline/
+│   ├── fetch_papers.py        # Pulls PubMed results
+│   ├── summarize_abstracts.py # BART-based summarization
+│   ├── embed_papers.py        # Creates MiniLM embeddings
+│   ├── json_to_db.py          # Upload to Supabase
+│   └── utils.py               # Shared helper functions
+├── data/
+│   ├── raw/                   # Raw PubMed JSONs
+│   ├── processed/             # Summarized + embedded
+├── .env                       # Supabase credentials
+├── pyproject.toml
+└── README.md
+```
+
+---
+
+## 🧠 How It Fits Into the Ecosystem
+
+```
+PubMed / NIH / DecodeME
+       ↓
+openmecfs-data-pipeline (fetch → summarize → embed → upload)
+       ↓
+openmecfs-platform (API + Supabase)
+       ↓
+openmecfs-ai-cure (clustering + hypothesis generation)
+       ↓
+openmecfs-ui (interactive research explorer)
+```
 
 ---
 
@@ -68,6 +142,6 @@ The goal of Open ME/CFS is to **democratize biomedical research** — using open
 
 ---
 
-## 🪪 License
+## 📚 License
 
 MIT License © 2025 Jonathan Spruance

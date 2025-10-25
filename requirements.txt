@@ -5,3 +5,5 @@ requests
 transformers
 torch
 python-dotenv
+sentence-transformers
+torch
